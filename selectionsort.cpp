@@ -1,6 +1,5 @@
-              class Solution
+ class Solution
 {
-    
     public:
     int select(int arr[], int i , int n )
     {
@@ -15,7 +14,6 @@
      
     void selectionSort(int arr[], int n)
     {
-       //code here
        for(int i = 0;i<n-1;i++){
        int mini = select(arr , i , n);
 
