@@ -1,6 +1,6 @@
 int searchInSorted(int arr[], int N, int K) {
 
-        // Your code here
+        // Your code heere
         int low = 0;
         int high = N-1;
         while(low<=high){
