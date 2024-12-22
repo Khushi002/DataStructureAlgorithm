@@ -7,7 +7,7 @@ public:
         if(target>nums[e-1]){
             return e;
         }
-
+//
         while(s<=e){
             mid = s+(e-s)/2;
             if(nums[mid]==target){
